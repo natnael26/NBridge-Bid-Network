@@ -150,15 +150,15 @@ Version: 1.0
 }
  .sidebar {
      width: 90px !important;
-     background: #6908ac;
+     background: #000428;
     /* Old browsers */
-     background: -moz-linear-gradient(-45deg, #6908ac 0%, #1755de 100%);
+     background: -moz-linear-gradient(-45deg, #000428 0%, #004e92 100%);
     /* FF3.6-15 */
-     background: -webkit-linear-gradient(-45deg, #6908ac 0%,#1755de 100%);
+     background: -webkit-linear-gradient(-45deg, #000428 0%,#004e92 100%);
     /* Chrome10-25,Safari5.1-6 */
-     background: linear-gradient(135deg, #6908ac 0%,#1755de 100%);
+     background: linear-gradient(135deg, #000428 0%,#004e92 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6908ac', endColorstr='#1755de',GradientType=1 );
+     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000428', endColorstr='#004e92',GradientType=1 );
     /* IE6-9 fallback on horizontal gradient */
      min-height: 100%;
      z-index: 9;
@@ -516,26 +516,26 @@ Version: 1.0
 }
  .bg-primary, .btn-primary, .btn-outline-primary:hover, .badge-primary {
      border-color: transparent !important;
-     background: #6908ac;
+     background: #000428;
     /* Old browsers */
-     background: -moz-linear-gradient(-45deg, #6908ac 0%, #1755de 100%);
+     background: -moz-linear-gradient(-45deg, #000428 0%, #004e92 100%);
     /* FF3.6-15 */
-     background: -webkit-linear-gradient(-45deg, #6908ac 0%,#1755de 100%);
+     background: -webkit-linear-gradient(-45deg, #000428 0%,#004e92 100%);
     /* Chrome10-25,Safari5.1-6 */
-     background: linear-gradient(135deg, #6908ac 0%,#1755de 100%);
+     background: linear-gradient(135deg, #000428 0%,#004e92 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6908ac', endColorstr='#1755de',GradientType=1 );
+     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000428', endColorstr='#004e92',GradientType=1 );
     /* IE6-9 fallback on horizontal gradient */
 }
  .btn-outline-primary{
-     border-color: #6908ac;
-     color: #6908ac;
+     border-color: #000428;
+     color: #000428;
 }
  .text-primary{
-     color: #6908ac !important;
+     color: #000428 !important;
 }
  .progress-bar{
-     background-color: #6908ac;
+     background-color: #000428;
 }
  .bg-success, .btn-success, .btn-outline-success:hover, .badge-success {
      border-color: transparent !important;
@@ -714,7 +714,7 @@ Version: 1.0
      margin: 0 0 5px;
 }
  a {
-     color: #6908ac;
+     color: #000428;
      text-decoration: none !important;
 }
  .btn {
@@ -758,7 +758,7 @@ Version: 1.0
      line-height: 20px;
 }
  .pagination .page-item.active .page-link {
-     background: #6908ac none repeat scroll 0 0;
+     background: #000428 none repeat scroll 0 0;
      border-radius: 2px;
      color: #fff;
      height: 30px;
@@ -975,15 +975,15 @@ Version: 1.0
 }
 /* Login Pages */
  .login-main-wrapper {
-     background: #6908ac;
+     background: #000428;
     /* Old browsers */
-     background: -moz-linear-gradient(-45deg, #6908ac 0%, #1755de 100%);
+     background: -moz-linear-gradient(-45deg, #000428 0%, #004e92 100%);
     /* FF3.6-15 */
-     background: -webkit-linear-gradient(-45deg, #6908ac 0%,#1755de 100%);
+     background: -webkit-linear-gradient(-45deg, #000428 0%,#004e92 100%);
     /* Chrome10-25,Safari5.1-6 */
-     background: linear-gradient(135deg, #6908ac 0%,#1755de 100%);
+     background: linear-gradient(135deg, #000428 0%,#004e92 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6908ac', endColorstr='#1755de',GradientType=1 );
+     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000428', endColorstr='#004e92',GradientType=1 );
     /* IE6-9 fallback on horizontal gradient */
      height: calc(100vh - 0rem);
 }
@@ -1018,15 +1018,15 @@ Version: 1.0
      padding: 12px 16px;
 }
  .login-main-right .owl-theme .owl-controls .owl-page.active span, .login-main-right .owl-theme .owl-controls .owl-page span:hover {
-     background: #6908ac;
+     background: #000428;
     /* Old browsers */
-     background: -moz-linear-gradient(-45deg, #6908ac 0%, #1755de 100%);
+     background: -moz-linear-gradient(-45deg, #000428 0%, #004e92 100%);
     /* FF3.6-15 */
-     background: -webkit-linear-gradient(-45deg, #6908ac 0%,#1755de 100%);
+     background: -webkit-linear-gradient(-45deg, #000428 0%,#004e92 100%);
     /* Chrome10-25,Safari5.1-6 */
-     background: linear-gradient(135deg, #6908ac 0%,#1755de 100%);
+     background: linear-gradient(135deg, #000428 0%,#004e92 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6908ac', endColorstr='#1755de',GradientType=1 );
+     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000428', endColorstr='#004e92',GradientType=1 );
     /* IE6-9 fallback on horizontal gradient */
 }
 /* Upload Details */
@@ -1095,8 +1095,8 @@ Version: 1.0
      padding: 14px 0 !important;
 }
  .single-channel-nav .nav-item.active .nav-link, .single-channel-nav .nav-item .nav-link:hover {
-     border-color: #6908ac;
-     color: #6908ac;
+     border-color: #000428;
+     color: #000428;
 }
  .single-channel-nav .navbar-nav {
      margin: 0 0 0 40px;

@@ -1,0 +1,14 @@
+.navbar {
+    background: #000428;
+   /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #000428 0%, #004e92 100%);
+   /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #000428 0%,#004e92 100%);
+   /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #004e92 0%,#000428 100%);
+   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000428', endColorstr='#004e92',GradientType=1 );
+   /* IE6-9 fallback on horizontal gradient */
+
+   
+}

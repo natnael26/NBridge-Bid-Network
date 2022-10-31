@@ -8,9 +8,7 @@ import OwlCarousel from 'react-owl-carousel';
 
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
-
-import {Link} from 'react-router-dom';
-function Login() {
+function SignUp() {
 
     
   return (
@@ -26,26 +24,33 @@ function Login() {
               <p>Private information is practically the source of every large modern fortune<br /></p>
             </div>
             <form action="index.html">
-              <div className="form-group">
-                <label>Mobile number</label>
-                <input type="text" className="form-control" placeholder="Enter mobile number" />
-              </div>
-              <div className="form-group">
-                <label>Password</label>
-                <input type="password" className="form-control" placeholder="Password" />
-              </div>
-              <div className="mt-4">
-                <div className="row">
-                  <div className="col-12">
-                    <button type="submit" className="btn btn-outline-primary btn-block btn-lg">Sign In</button>
-                    
-                  </div>
-                </div>
-              </div>
-            </form>
-            <div className="text-center mt-5">
-              <p className="light-gray">Don’t have an account? <Link to="/signup">Sign Up</Link></p>
-            </div>   
+          <div className="form-group"> 
+            <label>Mobile number</label>
+            <input type="text" className="form-control" placeholder="Enter mobile number" />
+          </div>
+
+          <div className="form-group"> 
+            <label>Email</label>
+            <input type="email" className="form-control" placeholder="Enter email" />
+          </div>
+
+          <div className="form-group">
+            <label>Password</label>
+            <input type="password" className="form-control" placeholder="Password" />
+          </div>
+
+          <div className="form-group">
+            <label>Re type Password</label>
+            <input type="password" className="form-control" placeholder="Password" />
+          </div>
+         
+          <div className="mt-4">
+            <button type="submit" className="btn btn-outline-primary btn-block btn-lg">Sign Up</button>
+          </div>
+        </form>
+        <div className="text-center mt-5">
+          <p className="light-gray">Already have an Account? <a href="login.html">Sign In</a></p>
+        </div>
           </div>
         </div>
         <div className="col-md-7">
@@ -105,4 +110,4 @@ function Login() {
   )
 }
 
-export default Login
+export default SignUp
