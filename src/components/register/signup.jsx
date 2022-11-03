@@ -21,6 +21,24 @@ function SignUp() {
     const [password,setPassword]=useState('');
 
     const [repassword,setRepassword]=useState('');
+
+    const handleChange=(e)=>{
+           if(e.target.name==='mobileNumber'){
+              setMobileNumber(e.target.value);
+           }else if(e.target.name==='email'){
+              
+             setMobileNumber(e.target.value);
+           }else if(e.target.name==='password'){
+              setPassword(e.target.value);
+           }else{
+              setRepassword(e.target.value);
+           }
+    }
+
+    const handleClick=(e)=>{
+        
+
+    }
   return (
     
     <section className="login-main-wrapper">
@@ -36,26 +54,26 @@ function SignUp() {
             <form action="index.html">
           <div className="form-group"> 
             <label>Mobile number</label>
-            <input type="text" className="form-control" placeholder="Enter mobile number" />
+            <input type="text" className="form-control" placeholder="Enter mobile number" name='moblieNumber' onChange={handleChange} />
           </div>
 
           <div className="form-group"> 
             <label>Email</label>
-            <input type="email" className="form-control" placeholder="Enter email" />
+            <input type="email" className="form-control" placeholder="Enter email" name='email' onChange={handleChange} />
           </div>
 
           <div className="form-group">
             <label>Password</label>
-            <input type="password" className="form-control" placeholder="Password" />
+            <input type="password" className="form-control" placeholder="Password" name='password' onChange={handleChange} />
           </div>
 
           <div className="form-group">
             <label>Re type Password</label>
-            <input type="password" className="form-control" placeholder="Password" />
+            <input type="password" className="form-control" placeholder="Re type Password" name='re_password' onChange={handleChange} />
           </div>
          
           <div className="mt-4">
-            <button type="submit" className="btn btn-outline-primary btn-block btn-lg">Sign Up</button>
+            <button type="submit" onClick={handleClick} className="btn btn-outline-primary btn-block btn-lg">Sign Up</button>
           </div>
         </form>
         <div className="text-center mt-5">
