@@ -1,16 +1,26 @@
 import React from 'react'
-import favicon from '../../assests/images/favicon.png';
+
 import img from '../../assests/images/5138438.jpg'
 import img1 from '../../assests/images/5244090.jpg';
-
+import logo from '../../assests/images/logo-no-background_small.png';
   import '../../index.css';
 import OwlCarousel from 'react-owl-carousel';
 
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
+
+import {useState} from 'react';
+
+import {Link} from 'react-router-dom';
 function SignUp() {
 
-    
+    const [mobileNumber,setMobileNumber]=useState('');
+
+    const [email,setEmail]=useState('');
+
+    const [password,setPassword]=useState('');
+
+    const [repassword,setRepassword]=useState('');
   return (
     
     <section className="login-main-wrapper">
@@ -19,7 +29,7 @@ function SignUp() {
         <div className="col-md-5 p-5 bg-white full-height">
           <div className="login-main-left">
             <div className="text-center mb-5 login-main-left-header pt-4">
-              <img src={favicon} className="img-fluid" alt="LOGO" />
+              <img src={logo} className="img-fluid" alt="LOGO" />
               <h5 className="mt-3 mb-3">Welcome to NBridge Bid Network</h5>
               <p>Private information is practically the source of every large modern fortune<br /></p>
             </div>
@@ -49,7 +59,7 @@ function SignUp() {
           </div>
         </form>
         <div className="text-center mt-5">
-          <p className="light-gray">Already have an Account? <a href="login.html">Sign In</a></p>
+          <p className="light-gray">Already have an Account? <Link to="/login">Sign In</Link></p>
         </div>
           </div>
         </div>

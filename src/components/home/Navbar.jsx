@@ -1,11 +1,11 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-
+import logo from '../../assests/images/white-on-transparent-background.png';
 import '../../index.css';
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg  navbar-light bg-light">
-    <Link className="navbar-brand">NBridge Bid Network</Link>
+    <Link to='/' className="navbar-brand"> <img src={logo} width="45" height="30" alt=""/>NBridge Bid Network</Link>
     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon" />
     </button>

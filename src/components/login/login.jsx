@@ -1,5 +1,7 @@
 import React from 'react'
 import favicon from '../../assests/images/favicon.png';
+
+import logo from '../../assests/images/logo-no-background_small.png';
 import img from '../../assests/images/5138438.jpg'
 import img1 from '../../assests/images/5244090.jpg';
 
@@ -21,7 +23,7 @@ function Login() {
         <div className="col-md-5 p-5 bg-white full-height">
           <div className="login-main-left">
             <div className="text-center mb-5 login-main-left-header pt-4">
-              <img src={favicon} className="img-fluid" alt="LOGO" />
+              <img src={logo} className="img-fluid" alt="LOGO" />
               <h5 className="mt-3 mb-3">Welcome to NBridge Bid Network</h5>
               <p>Private information is practically the source of every large modern fortune<br /></p>
             </div>
