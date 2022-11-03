@@ -3,17 +3,22 @@ import React from 'react'
 import img from '../../assests/images/5138438.jpg'
 import img1 from '../../assests/images/5244090.jpg';
 import logo from '../../assests/images/logo-no-background_small.png';
-  import '../../index.css';
+  
 import OwlCarousel from 'react-owl-carousel';
 
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 
-import {useState} from 'react';
+import {useState,useEffect} from 'react';
 
 import {Link} from 'react-router-dom';
-function SignUp() {
+import PhoneInput from 'react-phone-input-2';
+import 'react-phone-input-2/lib/style.css';
 
+import '../../index.css';
+function SignUp() {
+      
+ 
     const [mobileNumber,setMobileNumber]=useState('');
 
     const [email,setEmail]=useState('');
@@ -23,9 +28,7 @@ function SignUp() {
     const [repassword,setRepassword]=useState('');
 
     const handleChange=(e)=>{
-           if(e.target.name==='mobileNumber'){
-              setMobileNumber(e.target.value);
-           }else if(e.target.name==='email'){
+           if(e.target.name==='email'){
               
              setMobileNumber(e.target.value);
            }else if(e.target.name==='password'){
@@ -39,6 +42,19 @@ function SignUp() {
         
 
     }
+
+    useEffect(()=>{
+     
+         handlePhone();
+     
+      console.log(mobileNumber);
+    },[mobileNumber])
+
+    const handlePhone=(e)=>{
+        
+        setMobileNumber(e);
+    }
+    
   return (
     
     <section className="login-main-wrapper">
@@ -54,7 +70,7 @@ function SignUp() {
             <form action="index.html">
           <div className="form-group"> 
             <label>Mobile number</label>
-            <input type="text" className="form-control" placeholder="Enter mobile number" name='moblieNumber' onChange={handleChange} />
+            <PhoneInput id="phone" type="tel" country={'et'} className="phone" placeholder="Enter mobile number" name='moblieNumber'    onChange={handlePhone} />
           </div>
 
           <div className="form-group"> 
